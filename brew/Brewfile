@@ -1,0 +1,125 @@
+# Brewfile
+
+# taps
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/core'
+tap 'homebrew/services'
+tap 'homebrew/cask-drivers'
+tap 'int128/kubelogin'
+
+# Make sure apps get installed in system Applications dir
+cask_args appdir: '/Applications'
+
+# git
+brew 'git'
+brew 'git-filter-repo'
+
+# Java M1
+cask 'zulu8'
+cask 'zulu11'
+cask 'zulu17'
+
+# binaries
+brew 'awscli'
+brew 'base64'
+brew 'coreutils'
+brew 'curl'
+brew 'findutils'
+brew 'fd'
+brew 'fzf'
+brew 'glow'
+brew 'gnupg'
+brew 'gnutls'
+brew 'gradle'
+brew 'grep'
+brew 'groovy'
+brew 'jq'
+brew 'kotlin'
+brew 'maven'
+brew 'nano'
+brew 'nvim'
+brew 'openssl'
+brew 'prettier'
+brew 'ranger'
+brew 'ripgrep'
+brew 'shellcheck'
+brew 'starship'
+brew 'stow'
+brew 'trash'
+brew 'tree'
+brew 'wget'
+brew 'zsh'
+brew 'zsh-autosuggestions'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+
+# db
+cask 'dbeaver-community'
+#brew 'postgresql@12'
+brew 'postgresql@14'
+
+# lua
+brew 'lua'
+brew 'stylua'
+
+# python
+brew 'python'
+brew 'python3'
+#brew 'python@3.9'
+brew 'python@3.10'
+brew 'pipenv'
+brew 'pip-tools'
+brew 'virtualenv'
+
+# kubernetes
+brew 'helm'
+brew 'kubectl'
+brew 'int128/kubelogin/kubelogin'
+
+# terraform
+brew 'tfenv'
+brew 'tflint'
+
+# frontend
+brew 'yarn'
+brew 'npm'
+brew 'eslint'
+cask 'vscodium'
+brew 'node'
+#brew 'node@14'
+
+# diagrams
+brew 'plantuml'
+brew 'graphviz'
+
+# applications
+cask 'alacritty'
+cask 'chromium'
+cask 'docker'
+cask 'firefox'
+cask 'firefox-developer-edition'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
+cask 'lastpass'
+cask 'microsoft-office'
+cask 'microsoft-teams'
+cask 'postman'
+cask 'slack'
+cask 'spectacle'
+cask 'spotify'
+
+# fonts
+cask 'font-fira-code'
+cask 'font-fira-mono-nerd-font'
+cask 'font-hack-nerd-font'
+cask 'font-iosevka'
+cask 'font-iosevka-nerd-font'
+cask 'font-monocraft'
+
+# hardware
+cask 'zsa-wally'
+cask 'displaylink'
+cask 'displaylink-login-extension'

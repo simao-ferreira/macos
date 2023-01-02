@@ -1,0 +1,15 @@
+zmodule environment
+zmodule input
+zmodule utility
+zmodule archive
+
+# Prompt
+zmodule duration-info
+
+zmodule zsh-users/zsh-completions
+zmodule completion
+zmodule zsh-users/zsh-autosuggestions
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule fzf
+zmodule felixr/docker-zsh-completion

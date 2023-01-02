@@ -1,0 +1,11 @@
+.cache
+.config/BraveSoftware
+.config/JetBrains
+.config/VSCodium
+.git
+.local/lib
+.local/share
+.minecraft
+.mozilla
+.thunderbird
+.vscode-oss

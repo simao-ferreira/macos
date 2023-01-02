@@ -1,0 +1,8 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+command_timeout = 20000
+
+[cmd_duration]
+# $duration – The command duration (e.g. "15s")
+# $style    – The default style of the module (e.g. "bold yellow")
+format = "took [$duration]($style) "
