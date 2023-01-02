@@ -64,6 +64,7 @@ brew 'postgresql@14'
 # lua
 brew 'lua'
 brew 'stylua'
+brew 'luarocks'
 
 # python
 brew 'python'
@@ -73,6 +74,8 @@ brew 'python@3.10'
 brew 'pipenv'
 brew 'pip-tools'
 brew 'virtualenv'
+brew 'flake8'
+brew 'black'
 
 # kubernetes
 brew 'helm'
