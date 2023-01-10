@@ -9,6 +9,7 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/cask-drivers'
 tap 'int128/kubelogin'
+# tap 'wez/wezterm'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
@@ -21,6 +22,7 @@ brew 'git-filter-repo'
 cask 'zulu8'
 cask 'zulu11'
 cask 'zulu17'
+brew 'scala'
 
 # binaries
 brew 'awscli'
@@ -113,6 +115,7 @@ cask 'postman'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
+cask 'wezterm'
 
 # fonts
 cask 'font-fira-code'

@@ -1,0 +1,24 @@
+{
+	"name": "hiberbee",
+	"author": "hiberbee",
+	"color": [
+		"#333333",
+		"#ed6b88",
+		"#b4da82",
+		"#f9d778",
+		"#49b0f1",
+		"#a89fec",
+		"#90dae6",
+		"#c8c8c8",
+		"#b3b3b3",
+		"#ff006e",
+		"#92e600",
+		"#ffc700",
+		"#00b1f7",
+		"#997aff",
+		"#66d9ef",
+		"#ffffff"
+	],
+	"foreground": "#e6e6e6",
+	"background": "#1a1a1a"
+}
