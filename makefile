@@ -7,10 +7,14 @@ help:
 	@echo 'Available make targets:'
 	@grep '^[^#[:space:]].*:' Makefile
 
-pyvenv: python-install-requirements
-
 bundle:
 	brew bundle --file brew/Brewfile
+
+init-submodules:
+	git submodule init
+	git submodule update
+
+venv: python-install-requirements
 
 python-install-requirements: python-update-requirements
 	. $(ACTIVATION) && pip3 install -r requirements.txt
@@ -25,6 +29,3 @@ python-delete-venv:
 	rm -rf $(VENV)
 	rm -rf venv
 
-init-submodules:
-	git submodule init
-	git submodule update

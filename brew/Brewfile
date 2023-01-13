@@ -9,7 +9,6 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'homebrew/cask-drivers'
 tap 'int128/kubelogin'
-# tap 'wez/wezterm'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
